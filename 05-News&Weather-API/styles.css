@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+
+  background-image: url('bg.jpg');
+  background-size:cover;
+  background-position:center,bottom;
+  display: flex;
+  flex-direction: row;
+  margin:0;
+
+}
+/* weather-api */
+#weather{
+  float: left;
+  margin: 10px 100px;
+  text-align: center;
+
+flex:3;
+}
+#formWeather{
+  background-color: #03b1fc;
+}
+#formWeather h1{
+  font-size: 3em;
+margin-top: 15px;
+margin-bottom: 15px;
+font-family: 'Raleway', sans-serif;
+}
+#searchWeather{
+width: 200px;
+height: 30px;
+margin: 8px 0 0 0;
+}
+
+
+.infoContainerStyles{
+  display: flex;
+  flex-direction:column;
+  padding: 5px;
+  align-items: center;
+  font-size: 1em;
+    font-family: 'Chela One', cursive;
+background-color: #16394C;
+margin: 10px 0;
+
+}
+#icon{
+order:1;
+height: 100.906px;
+margin:0;
+border:0;
+}
+#cityName{
+  order: 2;
+
+color:white;
+margin: 15px;
+}
+#temp{
+  order:3;
+
+  color:white;
+  margin: 15px;
+
+}
+#desc{
+  order:4;
+
+  color:white;
+margin: 15px;
+
+}
+/* newsapi */
+#newsContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+flex: 6;
+}
+#formNews{
+  background-color:  #47110b;
+  margin-top: 20px;
+padding: 0 210px 0 210px;
+}
+#formNews h1{
+  padding: 0 60px 0 60px;
+  color: white;
+  font-size: 3em;
+margin: 15px 0;
+font-family: 'Raleway', sans-serif;
+}
+#formNews input{
+  width: 200px;
+  height: 30px;
+}
+#newsInfo{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+#newsInfo h1 h2 h3{
+  color: black;
+}
+#newsImg{
+  order: 1;
+  height: 400px;
+}
+#title{
+  order: 2;
+  color: white;
+}
+#newsDate{
+  order: 3;
+  color:white;
+}
+#newsContent{
+  order: 4;
+  color: white;
+}

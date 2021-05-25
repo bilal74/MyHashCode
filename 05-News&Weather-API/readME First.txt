@@ -1,0 +1,1 @@
+Run through localHOST because newsApi dosen't accept direct browser call. 

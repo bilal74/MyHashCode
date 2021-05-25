@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Api manipulation</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+ <!-- weather api -->
+<div id="weather">
+
+<form  id='formWeather' class="form-inline">
+  <h1>How's the weather</h1>
+<input id="searchWeather" class='form-control mr-sm-2' type="text" name="city" placeholder="search city...">
+
+            </form>
+
+            <div id='infoContainer'>
+          <img id='icon' ></img>
+
+
+          <h1 id="desc"></h1>
+          <h1 id="temp"></h1>
+          <h1 id="cityName"></h1>
+          </div>
+</div>
+
+ <!-- news api -->
+ <div id="newsContainer">
+
+     <form id="formNews" >
+       <h1>Search for news</h1>
+       <input type="text" id="searchNews" class='form-control mr-sm-2' placeholder="search content...">
+          </form>
+          <div id="newsInfo">
+          <h1 id="title"></h1>
+          <img id="newsImg" >
+          <h2 id="newsDate"></h2>
+          <h3 id="newsContent"></h3>
+
+
+          </div>
+</div>
+    <script src='main.js'></script>
+  </body>
+</html>
