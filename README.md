@@ -3,5 +3,6 @@
 # 03 https://bilal74.github.io/MyHashCode/03-pokedex/
 # 04 https://bilal74.github.io/MyHashCode/04-gitHubAPI/
 # 05 https://bilal74.github.io/MyHashCode/05-News&Weather-API/
+# 06 https://bilal74.github.io/MyHashCode/06-yearEndCounterSnowflakes/
 # MyHashCode
 # 
