@@ -1,0 +1,3 @@
+
+Q 1] Callback Hell - Callback hell happens when we try to execute multiple asynchronous operations one after the other. By nesting multiple callbacks in such a way, 
+we easily end up with being error-prone, hard to read, and hard to maintain code.

@@ -1,0 +1,10 @@
+Q 2] In the fetch api example, show the lat and lng also of each user
+
+async function fetchUsers(){
+  const res = await fetch('https://jsonplaceholder.typicode.com/users');
+  const data = await res.json();
+  let output = '';
+  data.forEach(item => output += `<b>${item.name}</b><p>${item.email}</p><b> Latitude: <p> ${item.address.geo.lat}</p> Longitude: <p>${item.address.geo.lng}</p></b>`);
+  document.body.innerHTML = output;
+}
+fetchUsers();
